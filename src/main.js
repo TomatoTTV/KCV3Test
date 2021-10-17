@@ -78,7 +78,6 @@ function createWindow() {
 
     win.once("ready-to-show", () => {
         showWin();
-        //autoUpdater.checkForUpdatesAndNotify();
         if (config.get("discordRPC", true)) {
             InitRPC();
             DiscordClient(win.webContents);
@@ -102,21 +101,6 @@ function createWindow() {
     
 }
 
-/*ipcMain.on('restart_app', () => {
-    autoUpdater.quitAndInstall();
-});
-
-ipcMain.on('app_version', (event) => {
-    event.sender.send('app_version', {version: app.getVersion() });
-});
-
-autoUpdater.on('update-available', () => {
-    win.webContents.send('update_available');
-  });
-
-autoUpdater.on('update-downloaded', () => {
-    win.webContents.send('update_downloaded');
-  });*/
 
 function createShortcutKeys() {
     const contents = win.webContents;
