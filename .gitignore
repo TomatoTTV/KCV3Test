@@ -9,3 +9,4 @@ dist/
 *.yml
 *.asar
 electron-builder.yml
+style.css

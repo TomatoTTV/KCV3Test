@@ -28,7 +28,7 @@ function checkbadge(user) {
     }
     let tosend = [];
     if (userbadge.dev.includes(user)) {
-        data = {start: true, type:'dev', url:'https://media.discordapp.net/attachments/863805591008706607/874611064606699560/contributor.png', name:user, role:'Developer'};
+        data = {start: true, type:'dev', url:'https://media.discordapp.net/attachments/863805591008706607/874611066909380618/dev.png', name:user, role:'Developer'};
         tosend.push(data);
     }
     if (userbadge.staff.includes(user)) {
@@ -44,7 +44,7 @@ function checkbadge(user) {
         tosend.push(data);
     }
     if (userbadge.con.includes(user)) {
-        data = {start: true, type:'contributor', url:'https://media.discordapp.net/attachments/863805591008706607/874611066909380618/dev.png', name:user, role:'Contributor'};
+        data = {start: true, type:'contributor', url:'https://media.discordapp.net/attachments/863805591008706607/874611064606699560/contributor.png', name:user, role:'Contributor'};
         tosend.push(data);
     }
     if (userbadge.kdev.includes(user)) {

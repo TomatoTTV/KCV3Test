@@ -1,12 +1,8 @@
 {"con":["Dhruv"],
-    "custom":[{"name":"OpBeast",
-        "role":"twitch.tv/beastpremium",
-        "type":"opbeast",
-        "url":"https://media.discordapp.net/attachments/849913063352434688/893871982301560852/Beast_Premium_Logo_1.png"
-        }],
-"dev":["AwesomeSam"],
+    "custom":[],
+"dev":["Tomato"],
 "gfx":[],
-"kdev":["x1pp", "Tomato"],
+"kdev":[""],
 "patreon":[],
 "staff":["AwesomeSam","SheriffCarry","Rishabh","infi","bodeneinheit","Dhruv"],
 "vip":["Shame"]}

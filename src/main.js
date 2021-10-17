@@ -8,6 +8,8 @@ const config = new Store();
 const { DiscordClient, InitRPC } = require('./features/discordRPC')
 const { autoUpdate } = require('./features/autoUpdate');
 
+
+
 if (require("electron-squirrel-startup")) {
     app.quit();
 }
